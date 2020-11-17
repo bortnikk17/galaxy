@@ -1,0 +1,44 @@
+#menu ul {display:block;
+width:100px;
+margin-left:40%;
+text-align:left;
+font-size:0.8em;
+padding-top:5px;
+}
+
+#menu li {display:inline;
+padding-left:40px;
+text-align:center;
+font-size:1.2em;
+}
+
+#menu li:hover ul{display:block;}
+
+#menu,#menu ul{
+list-style-type:none;
+}
+
+#menu ul {
+display:none;
+position:absolute;
+top:100%
+}
+
+#menu li{
+position:relative;
+}
+
+#menu{
+text-align:center;
+}
+.a_menu{
+margin-top:3px;
+color:white;
+text-decoration:none;
+background-color:black;
+}
+.a_mmenu {
+color:white;
+text-decoration:none;
+
+}
